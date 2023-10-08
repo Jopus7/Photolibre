@@ -11,6 +11,7 @@
 </p>
 {% else %}
 <p> Wypełnij aby się zalogować</p>
+<p>Jeśli jeszcze nie masz konta, <a href="{% url 'register' %}">zarejestruj</a>.</p>
 {% endif %}
 <div class="login-form">
     <form action="{% url 'login' %}" method="post">
